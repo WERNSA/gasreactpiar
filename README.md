@@ -8,6 +8,16 @@ To use this repo:
 
 3- Execute "npm run gcreate"
 
-4- Excute "npm run gpush"
+4- Select project type "standalone"
 
-5- Go to the script.google.com and make the webapp deployment.
+5- Move the file .clasp.json to the main directory
+
+6- Excute "npm run gpush"
+
+7- Go to the script.google.com and make the webapp deployment. (Now you can open the developtment address)
+
+8- Execute "npm run gpull" to merge the change of the appscript file.
+
+9- Run the "npm start"
+
+Note: To make the push to production use "npm run build"
