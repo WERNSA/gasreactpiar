@@ -1,0 +1,23 @@
+{
+  "name": "gasreactpiar",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'piar-react-gas' --rootDir ./apps-script",
+    "gclone": "clasp clone 1 --rootDir ./apps-scripts",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel ./src/index.html --dist-dir ./apps-script",
+    "build": "parcel build ./src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.64"
+  }
+}
