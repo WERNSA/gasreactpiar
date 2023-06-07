@@ -21,3 +21,5 @@ To use this repo:
 9- Run the "yarn start"
 
 Note: To make the push to production use "yarn run build"
+
+Note2: If you are using MUI you have to use "yarn run build" always to update your code
