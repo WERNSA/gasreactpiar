@@ -21,3 +21,4 @@ To use this repo:
 9- Run the "npm start"
 
 Note: To make the push to production use "npm run build"
+Note2: If you are using MUI you have to use "npm run build" always to update your code
